@@ -488,6 +488,7 @@ assembly it has always lived in is itself renamed `Uno` → `Uno.WinRT` in 7.0.
   `false`. They are now internal on WinAppSDK, matching the intended Skia-only public surface
   (they remain public in the Skia `Uno.UI` build). There is no known WinAppSDK consumer; if
   you called these from a WinAppSDK head, copy the extension methods into your own project.
+
 ### Activation is read from `AppInstance`
 
 **`Application.OnActivated` is removed.** It is not part of the shipping WinUI 3 surface —
